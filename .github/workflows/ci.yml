@@ -7,6 +7,7 @@ on:
     - 'license.md'
     - 'readme.md'
     branches: [main]
+    tags: ['*']
 
 jobs:
   build:
@@ -14,12 +15,12 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         fetch-depth: 0
 
     - name: Install .NET
-      uses: actions/setup-dotnet@v4
+      uses: actions/setup-dotnet@v5
       with:
         global-json-file: global.json
     - name: Build, Test (Debug & Release), Publish (main only)
