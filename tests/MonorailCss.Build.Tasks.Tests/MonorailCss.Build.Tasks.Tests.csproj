@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MonorailCss" Version="0.0.4" />
+    <PackageReference Include="MonorailCss" Version="0.1.3" />
   </ItemGroup>
 
   <ItemGroup>
