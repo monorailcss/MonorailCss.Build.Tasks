@@ -41,7 +41,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MonorailCss" Version="0.0.4" PrivateAssets="All" />
+    <PackageReference Include="MonorailCss" Version="0.1.3" PrivateAssets="All" />
   </ItemGroup>
 
   <!-- Include build props/targets in the package -->
